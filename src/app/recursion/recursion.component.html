@@ -1,0 +1,5 @@
+<!--<div *ngFor="let dir of directories">
+  <div *ngIf="chekFolder(dir); else elseBlock">{{dir}}</div>
+  <app-recursion #elseBlock [directories]="dir"></app-recursion>
+</div>-->
+<tree-view [directories]="directories"></tree-view>
